@@ -10,7 +10,3 @@ else document.write("El número más grande es: " + num3);
 
 
 
-if ((firstNumb  == secondNumb) && (firstNumb == thirdNumb)) document.write('Los tres números son iguales.');
-else if ((firstNumb > secondNumb) && (firstNumb > thirdNumb)) document.write('El número más grande es: ' + firstNumb);
-else if ((secondNumb > firstNumb) && (secondNumb > thirdNumb)) document.write('El número más grande es: ' + secondNumb);
-else document.write('El número más grande es: ' + thirdNumb);
