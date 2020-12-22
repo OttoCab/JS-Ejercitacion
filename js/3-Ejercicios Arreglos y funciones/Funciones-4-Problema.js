@@ -5,7 +5,10 @@ del número elegido por el usuario.*/
 let valor = parseInt(prompt("Ingrese un numero para realizar su table de multiplicar"));
 let multiplicar;
 
+
+document.write(`<h4>Tabla de multiplicar</h4>`);
 tablaMul(valor);
+
 
 function tablaMul(num) {
     for (let i = 1; i <= 10 ; i++) {
